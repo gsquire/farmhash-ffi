@@ -1,0 +1,17 @@
+[package]
+name = "farmhash-ffi"
+version = "0.1.0"
+authors = ["Garrett Squire <github@garrettsquire.com>"]
+edition = "2018"
+description = "An FFI binding to some of the FarmHash functions"
+repository = "https://github.com/gsquire/farmhash-ffi"
+license = "MIT"
+documentation = "https://docs.rs/farmhash-ffi"
+readme = "README.md"
+
+[dependencies]
+libc = "0.2"
+
+[build-dependencies.cc]
+version = "1.0"
+features = ["parallel"]

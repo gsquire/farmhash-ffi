@@ -1,4 +1,6 @@
 # FarmHash FFI
+[![CI](https://github.com/gsquire/farmhash-ffi/workflows/CI/badge.svg)](https://github.com/gsquire/farmhash-ffi/actions)
+
 This crate provides a simple API to utilize some of the FarmHash hashing functions in
 Rust. The types implement the
 [`Hasher`](https://doc.rust-lang.org/stable/std/hash/trait.Hasher.html) trait so they can be used
